@@ -1,0 +1,33 @@
+body{
+
+    background-color:#faf0e6;
+}
+
+audio {
+    /* เพิ่มสไตล์ CSS ที่ต้องการสำหรับตัวควบคุมเสียงที่ต้องการปรับตำแหน่ง */
+    position: absolute;
+    top: 20px; /* ปรับตำแหน่งตามที่ต้องการในแนวดิ่ง */
+    left: 20px; /* ปรับตำแหน่งตามที่ต้องการในแนวนอน */
+}
+
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: rgb(10, 0, 3);
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#timeDisplay{
+    
+    font-size: 75px;
+    color: #070000;
+    font-family: consolas, monospace;
+}
+
+#timeContainer{
+    text-align: center;
+}
